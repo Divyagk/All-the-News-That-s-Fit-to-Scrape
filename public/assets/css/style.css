@@ -1,4 +1,14 @@
-.bg-primary{
+
+
+
+
+
+
+
+
+
+
+ .bg-primary{
     background-color: rgb(59, 169, 212) !important;
 }
 
@@ -89,4 +99,4 @@ li {
 }
 p {
     margin: 0 0 1em;
-}
+} 
