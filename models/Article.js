@@ -16,6 +16,26 @@ var ArticleSchema = new Schema({
     type: String,
     required: true
   },
+  summary: {
+    type: String,
+    default: "Summary unavailable."
+  },
+  img: {
+    type: String,
+    // default: "/assets/images/unavailable.jpg"
+  },
+  issaved: {
+    type: Boolean,
+    default: false
+  },
+  status: {
+    type: String,
+    default: "Save Article"
+  },
+  created: {
+    type: Date,
+    default: Date.now
+  },
   // `note` is an object that stores a Note id
   // The ref property links the ObjectId to the Note model
   // This allows us to populate the Article with an associated Note
