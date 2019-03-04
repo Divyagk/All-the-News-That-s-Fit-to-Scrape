@@ -1,1 +1,2 @@
-# All-the-News-That-s-Fit-to-Scrape
+# New York Times Mongo Scraper
+
